@@ -35,6 +35,7 @@ where <username> can be a single word or multi-word.
 To view streams/posts:
 
 chmod +x ./view.py (for the first time running the program)
+
 ./view.py
 
 *****************
