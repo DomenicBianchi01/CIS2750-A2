@@ -1,5 +1,9 @@
 # CIS2750 A2
 
+The second assignment invloved creating a Forum for a terminal. With one C program, you can create Streams (essentially a Board) and write Posts. A second C program allows you to add and remove users from specific Boards. A python script displays allows the user to view a Stream.
+
+The Python script also keeps track of which Posts a user has already read. When a user views a Stream, the script will display unread messages first. Finally, there is an option to sort the posts based on date or user (alphabetically)
+
 ************
 Compilation
 ************
