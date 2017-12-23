@@ -12,7 +12,7 @@ To compile this program execute the following command when inside the "A2" direc
 
 make
 
-This command will compile A1 (converter.c and parseFile.c) and run the program to convert a file named post.cc. Please note that the file must be named post.cc, otherwise the conversion will fail. Next, an object file for the stream library will be created. Then, the post and addauthor programs will be compiled where the library will be linked. Finally, permissions will be updated for view.py
+This command will compile A1 (`converter.c` and `parseFile.c`) and run the program to convert a file named `post.cc`. Please note that the file must be named `post.cc`, otherwise the conversion will fail. Next, an object file for the stream library will be created. Then, the post and addauthor programs will be compiled where the library will be linked. Finally, permissions will be updated for `view.py`.
 
 ********************
 Running the programs
@@ -20,27 +20,27 @@ Running the programs
 
 To add a user to a stream:
 
-./addauthor <username>
+`./addauthor username`
 
-where <username> can be a single word or multi-word
+where `username` can be a single word or multi-word
 
 To remove a user from a stream:
 
-./addauthor -r <username>
+`./addauthor -r username`
 
-where <username> (single word or multi-word) comes after the -r flag.
+where `username` (single word or multi-word) comes after the -r flag.
 
 To add a post to a stream:
 
-./post <username>
+`./post username`
 
-where <username> can be a single word or multi-word.
+where `username` can be a single word or multi-word.
 
 To view streams/posts:
 
-chmod +x ./view.py (for the first time running the program)
+`chmod +x ./view.py` (for the first time running the program)
 
-./view.py
+`./view.py`
 
 *****************
 Known Limitations
